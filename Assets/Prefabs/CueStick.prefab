@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3113773333400456068}
   - component: {fileID: 750820432145184837}
   - component: {fileID: 3483617551728053749}
+  - component: {fileID: -746248774615572111}
   m_Layer: 0
   m_Name: CueStick
   m_TagString: Untagged
@@ -114,9 +115,22 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0006660679, y: 0.030235538}
-  m_Size: {x: 0.32551676, y: 5.299529}
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.2823971, y: 5.299529}
   m_Direction: 0
+--- !u!114 &-746248774615572111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9151538219968217187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f2dcdeb8cff63947af26f458f107d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 100
