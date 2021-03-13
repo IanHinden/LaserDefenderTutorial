@@ -217,6 +217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   padding: 0.5
+  health: 200
   laserPrefab: {fileID: 9151538219968217187, guid: ec3d59fff574bf141982f0fdaee8030a,
     type: 3}
   projectileSpeed: 20
@@ -420,7 +421,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: de8caad46d5383f4ea6da259c2ea72d8, type: 2}
   - {fileID: 11400000, guid: 51857e75b34365144aa949f1655639cb, type: 2}
   startingWave: 0
-  looping: 0
+  looping: 1
 --- !u!4 &683214476
 Transform:
   m_ObjectHideFlags: 0
@@ -526,7 +527,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -597,7 +598,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1684069198
 GameObject:
@@ -719,7 +720,7 @@ PrefabInstance:
     - target: {fileID: 5175654625164379576, guid: 9eecbcdbde0ff1245ac29da0af2aaacc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5175654625164379576, guid: 9eecbcdbde0ff1245ac29da0af2aaacc,
         type: 3}
@@ -783,7 +784,7 @@ PrefabInstance:
     - target: {fileID: 1869283749012925471, guid: 4875b9af98accaa4ab9b2b853123ec01,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1869283749012925471, guid: 4875b9af98accaa4ab9b2b853123ec01,
         type: 3}
