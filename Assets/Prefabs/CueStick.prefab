@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 750820432145184837}
   - component: {fileID: 3483617551728053749}
   - component: {fileID: -746248774615572111}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CueStick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
