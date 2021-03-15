@@ -117,6 +117,11 @@ MonoBehaviour:
   projectileSpeed: 10
   explosion: {fileID: 3327353171129360632, guid: 6d8e3e08ba4542248bc43a8a885b2c06,
     type: 3}
+  durationOfExplosion: 1
+  deathSound: {fileID: 8300000, guid: 1ce48b4beb49b25449b4e23c0c66b623, type: 3}
+  deathSoundVolume: 0.7
+  shootSound: {fileID: 8300000, guid: 4cb4cbc82e62b7b45a49ff719b010dc9, type: 3}
+  shootSoundVolume: 0.25
 --- !u!70 &7180339230707408606
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
