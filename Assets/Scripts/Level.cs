@@ -28,6 +28,12 @@ public class Level : MonoBehaviour
 
     IEnumerator LoadGameOverScreen()
     {
+        var music = FindObjectsOfType<MusicPlayer>();
+        Debug.Log(music);
+        for (int i = 0; i < music.Length; i++)
+        {
+            Destroy(music[i].gameObject);
+        }
         yield return new WaitForSeconds(delayInSeconds);
         SceneManager.LoadScene("Game Over");
     }
